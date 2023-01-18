@@ -34,4 +34,9 @@ public class Witcher {
 
 	}
 
+	public boolean isDeath() {
+		// TODO Auto-generated method stub
+		return false;
+	}
+
 }
