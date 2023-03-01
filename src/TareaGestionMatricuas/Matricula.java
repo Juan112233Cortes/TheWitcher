@@ -1,8 +1,15 @@
 package TareaGestionMatricuas;
 
-public class Matricula {
+import java.util.ArrayList;
+
+public class Matricula extends Estudiante{
+	
 	private int codigo;
-	private String nombre;
-	private String profesorResponsable;
+	private String fecha;
 	private String cursoAsignado;
+	private ArrayList<Asignatura> asignaturas = new ArrayList();
+	
+	public void masAsignaturas(asignatura){
+		asignaturas.add(asignatura)
+	}
 }
